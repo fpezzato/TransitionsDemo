@@ -22,6 +22,7 @@
     <Button
         android:id="@+id/try_enter_transition"
         android:layout_width="0dp"
+        android:text="@string/try_window_enter_transition"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
