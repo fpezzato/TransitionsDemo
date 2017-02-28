@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FF00FF"
+        android:transitionName="@string/_02_target_name_PINK"
+        />
+
+
+
+    <View
+        android:id="@+id/view02"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view01"
+        android:background="#FFFF00"
+        android:transitionName="@string/_02_target_name_YELLOW"
+        />
+
+    <View
+        android:id="@+id/view03"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view02"
+        android:background="#00FF44"
+        />
+
+
+
+</RelativeLayout>

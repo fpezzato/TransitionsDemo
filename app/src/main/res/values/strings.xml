@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TransitionsDemo</string>
+    <string name="try_content_transition">Try content transition</string>
+    <string name="try_window_enter_transition">try window enter transition</string>
+
+    <string name="_02_target_name_PINK">_02_target_name_PINK</string>
+    <string name="_02_target_name_YELLOW">_02_target_name_YELLOW</string>
 </resources>

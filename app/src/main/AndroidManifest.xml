@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="._01_contentTransition.Activity_01_content_transition_main">
+        </activity>
+        <activity
+            android:name="._02_enter_transition.Activity_02_activity_transition"
+            android:theme="@style/Theme._02">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+               android:transitionOrdering="sequential">
+    <transitionSet android:transitionOrdering="together">
+        <targets>
+            <target android:targetName="@string/_02_target_name_YELLOW"/>
+        </targets>
+        <fade
+            android:duration="400"
+            android:fadingMode="fade_in"
+            android:interpolator="@android:interpolator/fast_out_slow_in">
+        </fade>
+        <slide
+            android:duration="400"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:slideEdge="right">
+        </slide>
+    </transitionSet>
+
+    <slide
+        android:duration="1300"
+        android:interpolator="@android:interpolator/accelerate_cubic"
+        android:slideEdge="left">
+        <targets>
+            <target android:targetName="@string/_02_target_name_PINK"/>
+        </targets>
+    </slide>
+</transitionSet>

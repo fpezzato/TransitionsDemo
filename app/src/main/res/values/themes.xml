@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme._02.Base" parent="Theme.AppCompat.Light">
+        <item name="android:windowShowAnimation">@null</item>
+        <item name="android:windowHideAnimation">@null</item>
+
+    </style>
+    <style name="Theme._02" parent="Theme._02.Base" />
+
+
+</resources>
