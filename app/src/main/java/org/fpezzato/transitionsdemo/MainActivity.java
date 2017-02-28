@@ -9,6 +9,7 @@ import android.view.View;
 
 import org.fpezzato.transitionsdemo._01_contentTransition.Activity_01_content_transition_main;
 import org.fpezzato.transitionsdemo._02_enter_transition.Activity_02_activity_transition;
+import org.fpezzato.transitionsdemo._03_shared_enter_transition.Activity_03_shared_enter_main;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
                 //noinspection unchecked
                 ActivityCompat.startActivity(MainActivity.this, intent,
                         ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this).toBundle());
+            }
+        });
+
+        findViewById(R.id.try_shared_element_enter_transition).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                open(Activity_03_shared_enter_main.class);
             }
         });
     }

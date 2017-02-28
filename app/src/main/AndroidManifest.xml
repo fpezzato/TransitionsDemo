@@ -22,6 +22,14 @@
             android:name="._02_enter_transition.Activity_02_activity_transition"
             android:theme="@style/Theme._02">
         </activity>
+        <activity android:name="._03_shared_enter_transition.Activity_03_shared_enter_main"
+                  android:theme="@style/Theme._03"
+            >
+        </activity>
+        <activity android:name="._03_shared_enter_transition.Activity_03_shared_enter_dest"
+                  android:theme="@style/Theme._03"
+            >
+        </activity>
     </application>
 
 </manifest>
