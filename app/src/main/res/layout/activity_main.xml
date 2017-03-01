@@ -33,7 +33,18 @@
         android:id="@+id/try_shared_element_enter_transition"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:text="@string/try_window_shared_enter_transition"
         app:layout_constraintTop_toBottomOf="@+id/try_enter_transition"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <Button
+        android:id="@+id/try_custom_shared_element_enter_transition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/try_window_custom_shared_enter_transition"
+        app:layout_constraintTop_toBottomOf="@+id/try_shared_element_enter_transition"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteY="0dp"/>

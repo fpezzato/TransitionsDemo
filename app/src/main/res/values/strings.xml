@@ -2,10 +2,14 @@
     <string name="app_name">TransitionsDemo</string>
     <string name="try_content_transition">Try content transition</string>
     <string name="try_window_enter_transition">Try window enter transition</string>
+    <string name="try_window_shared_enter_transition">Try window shared enter transition</string>
+    <string name="try_window_custom_shared_enter_transition">try custom window shared enter transition </string>
 
     <string name="_02_target_name_PINK">_02_target_name_PINK</string>
     <string name="_02_target_name_YELLOW">_02_target_name_YELLOW</string>
 
     <string name="_03_target_name_ORANGE">_03_target_name_ORANGE</string>
     <string name="_03_target_name_PINK">_03_target_name_PINK</string>
+
+    <string name="_04_target_name_ORANGE_TO_BLUE">_04_target_name_ORANGE_TO_BLUE</string>
 </resources>

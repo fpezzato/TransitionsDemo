@@ -15,4 +15,10 @@
 
     <style name="Theme._03" parent="Theme._03.Base"/>
 
+    <!-- 04 -->
+    <style name="Theme._04.Base" parent="Theme.AppCompat.Light">
+    </style>
+
+    <style name="Theme._04" parent="Theme._04.Base"/>
+
 </resources>
