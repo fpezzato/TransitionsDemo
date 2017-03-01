@@ -8,6 +8,19 @@
     android:background="#8ddf8d"
     tools:context="org.fpezzato.transitionsdemo._03_shared_enter_transition.Activity_03_shared_enter_main">
 
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guidelie33"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.333"/>
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline66"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.666"/>
+
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
@@ -31,6 +44,7 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintVertical_bias="0.501"
         app:layout_constraintBottom_toTopOf="@+id/go"/>
+
 
     <Button
         android:layout_width="wrap_content"

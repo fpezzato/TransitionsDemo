@@ -9,9 +9,12 @@
 
 
     <style name="Theme._03" parent="Theme._03.Base">
-        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@null</item>
+        <item name="android:windowExitTransition">@null</item>
+      <!--  <item name="android:windowContentTransitions">true</item>
         <item name="android:windowSharedElementEnterTransition">@transition/_03_window_shared_element_enter_transition</item>
+        -->
 
-        <item name="android:windowEnterTransition">@null</item> <!-- just to avoid the default -->
+
     </style>
 </resources>

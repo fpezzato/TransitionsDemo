@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.util.Pair;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -21,6 +22,10 @@ public class Activity_03_shared_enter_main extends AppCompatActivity {
 
         printhash();
 
+        setuponClick();
+    }
+
+    private void setuponClick() {
         findViewById(R.id.go).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,15 +36,18 @@ public class Activity_03_shared_enter_main extends AppCompatActivity {
 
     private void printhash() {
         orangeView = (TextView) findViewById(R.id._03_shared_element_01);
-        orangeView.setText("#"+orangeView.hashCode());
+        orangeView.setText("#" + orangeView.hashCode());
     }
 
     @SuppressWarnings("unchecked")
     private void goToDetails() {
         Intent intent = new Intent(this, Activity_03_shared_enter_dest.class);
 
+        Pair<View, String> orangePair = new Pair<View, String>(orangeView, getResources().getString(R.string._03_target_name_ORANGE));
+
         ActivityCompat.startActivity(this, intent,
-                ActivityOptionsCompat.makeSceneTransitionAnimation(this, orangeView, getResources().getString(R.string._03_target_name_ORANGE)).toBundle());
+                ActivityOptionsCompat.makeSceneTransitionAnimation(this,
+                        orangePair).toBundle());
 
 
     }
